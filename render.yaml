@@ -1,6 +1,6 @@
 services:
   - name: web
-    buildCommand: npm install && tsc
+    buildCommand: npm install && npm run build
     startCommand: node src/server.ts
     healthCheckPath: /
 
