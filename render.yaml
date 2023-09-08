@@ -1,0 +1,2 @@
+buildCommand: npm install && tsc
+startCommand: node src/server.js
