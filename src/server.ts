@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config(); 
 
 const app = express();
-const PORT: string = process.env.PORT!
+const PORT: string | number = process.env.PORT || 5000;
 
 app.use(express.json());
 

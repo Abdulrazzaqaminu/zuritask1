@@ -26,6 +26,8 @@ export const getRequests = async (req: Request, res: Response) => {
             "current_day": currentDay,
             "utc_time": isWithinRange ? utcTime = new Date(time - timeOffSet*60*1000).toISOString() : 0,
             "track": track,
+            "github_file_url": "https://github.com/Abdulrazzaqaminu/zuri-first-task/blob/main/src/Controllers/getReq.ts",
+            "github_repo_url": "https://github.com/Abdulrazzaqaminu/zuri-first-task",
             "status": 200
         });
         
